@@ -1,6 +1,8 @@
 FROM python:3.9-slim-buster
 
-RUN pip install idf-component-manager
+COPY component-manager/ /component-manager
+
+RUN pip install -e component-manager
 
 COPY upload.sh /upload.sh
 

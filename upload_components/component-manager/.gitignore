@@ -1,0 +1,39 @@
+.vscode
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*$py.class
+*.egg-info
+.mypy_cache
+
+# Test files
+.pytest_cache
+.tox
+
+# Remove Pipfile.lock to run tests under different python versions
+Pipfile.lock
+
+# Manifest and components
+/dependencies.lock
+/idf_component*.yaml
+/managed_components
+/components
+build
+dist
+
+#Configs
+.env
+
+# Development experiments
+notebooks
+.ipynb_checkpoints
+diagram.mdj
+
+
+bandit_output.txt
+
+# Coverage reports
+.coverage
+coverage.xml

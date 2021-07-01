@@ -1,0 +1,14 @@
+dependencies:
+  espressif/test_cmp:
+    component_hash: f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
+    source:
+      service_url: https://repo.example.com
+      type: service
+    version: 1.2.7
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 4.4.4
+manifest_hash: 74d50180f521118751525cfdad1314a4c072c5ab8f51ed72bf9787ae5f30f9d6
+version: 1.0.0
